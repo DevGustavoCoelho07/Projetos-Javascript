@@ -1,6 +1,5 @@
 # Modal
-
-![GitHub](https://github.com/DevGustavoCoelho07/Projetos-Javascript/blob/main/LICENSE)
+![GitHub](https://img.shields.io/github/license/DevGustavoCoelho07/Projetos-Javascript/blob/main/LICENSE)
 
 ## Mas o que é uma modal ?
 
