@@ -6,7 +6,7 @@
 
 ## Mas o que é uma modal ? 🤔
 
- - Modal nada mais é que do que uma "janela informativa" , tal como os avisos de erro do windows, também conhecido como **popup**. O evento ocorre na maioria das vezes quando o usuário clica em um determinado botão abrindo uma pequena janela com alguma informação ou anúncio.
+ - Modal nada mais é do que uma "janela informativa" , tal como os avisos de erro do windows, também conhecido como **popup**. O evento ocorre na maioria das vezes quando o usuário clica em um determinado botão abrindo uma pequena janela com alguma informação ou anúncio.
 
 ## E o projeto ??
 
