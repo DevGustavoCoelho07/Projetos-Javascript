@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body class="img-modal" id="img-modal">
-
+  <body class="img-modal" id="img-modal">
     <header>
-        <div id="modal-main">
-            <button id="modal-click">
-            Clique aqui!
-        </button>
-        </div>
-        <div class="sobrepor"></div>
-        <div id="modal">
-            <p>Exemplo de modal</p>
-            <div id="modal-action">Fechar</div>
-        </div>
+      <div id="modal-main">
+        <button id="modal-click">Clique aqui!</button>
+      </div>
+      <div class="sobrepor"></div>
+      <div id="modal">
+        <p>Exemplo de modal</p>
+        <div id="modal-action">Fechar</div>
+      </div>
 
-        <!-- <img src="https://images.pexels.com/photos/5871297/pexels-photo-5871297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="img-modal" alt="img-modal"> -->
-
+      <!-- <img src="https://images.pexels.com/photos/5871297/pexels-photo-5871297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="img-modal" alt="img-modal"> -->
     </header>
-</body>
-<script>
-    const imgListener = document.getElementById("modal-click")
-    const sobr = document.querySelector(".sobrepor")
-    const modal = document.getElementById("modal")
-    const modalAct = document.getElementById("modal-action")
+  </body>
+  <script>
+    const imgListener = document.getElementById("modal-click");
+    const sobr = document.querySelector(".sobrepor");
+    const modal = document.getElementById("modal");
+    const modalAct = document.getElementById("modal-action");
     imgListener.addEventListener("click", () => {
-        sobr.style.display = "inline-block";
-        modal.style.display = "inline-block";
-        modalAct.style.display = "Inline-block";
-        modalAct.addEventListener("click", () => {
-            sobr.style.display = "none";
-            modal.style.display = "none";
-            modalAct.style.display = "none";
-        })
-    })
-</script>
-
+      sobr.style.display = "inline-block";
+      modal.style.display = "inline-block";
+      modalAct.style.display = "Inline-block";
+      modalAct.addEventListener("click", () => {
+        sobr.style.display = "none";
+        modal.style.display = "none";
+        modalAct.style.display = "none";
+      });
+    });
+  </script>
 </html>
